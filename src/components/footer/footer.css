@@ -1,0 +1,43 @@
+.awg__footer {
+    margin-top: auto;
+    background-color: var(--almost-black);
+    padding: 20px 10px 40px 10px;
+}
+
+.awg__footer-links_logo {
+    display: flex;
+}
+
+.awg__footer-links_logo img {
+    width: 250px;
+    margin: auto;
+}
+
+.awg__footer-links_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.awg__footer-links_container a {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 17.5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: var(--font-main);
+}
+
+.awg__footer-copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--sand-white);
+    font-family: var(--font-main);
+    font-size: 13px;
+    margin-top: 16px;
+    
+}
