@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../../assets/logo.svg';
-import './footer.css';
+import './footer.scss';
 
 const Menu = () => (
     <>
@@ -13,8 +13,6 @@ const Menu = () => (
 )
 
 const Footer = () => {
-    const [toggleMenu, setToggleMenu] = useState(false);
-
     return (
         <div className="awg__footer">
             <div className="awg__footer-innercontainer">
