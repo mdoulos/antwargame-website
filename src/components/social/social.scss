@@ -27,6 +27,10 @@
             font-size: 1.6rem;
             margin: 2rem 0;
         }
+
+        span {
+            color: yellow;
+        }
     }
 
     &-button {
@@ -45,5 +49,27 @@
 
     &-button:hover {
         background-image: url('../../assets/discord-button-hover.png');
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .awg__social {
+        height: 250px;
+        padding: 2rem 1rem;
+
+        &-innercontainer {
+            flex-direction: column;
+        }
+        &-text {
+            text-align: center;
+            h2 {
+                font-size: 2.4rem;
+            }
+    
+            p {
+                font-size: 1.4rem;
+                margin: 2rem 0 0 0;
+            }
+        }
     }
 }

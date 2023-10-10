@@ -4,6 +4,15 @@
     background-repeat: no-repeat;
     overflow: hidden;
     padding: 3rem 1rem 8rem 1rem;
+    -webkit-mask-image: url('../../assets/dirt-bg-mask.png');
+    mask-image: url('../../assets/dirt-bg-mask.png');
+    -webkit-mask-mode: alpha;
+    mask-mode: alpha;
+    mask-size: 100% 100%;
+    -webkit-mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    padding-top: 250px;
 
     &-innercontainer {
         max-width: 1800px;
@@ -38,11 +47,17 @@
 
         h2 {
             font-size: 3.2rem;
+            text-shadow: 2px 2px 4px rgb(53 121 17);
         }
 
         p {
             font-size: 1.6rem;
             margin: 2rem 0;
+            text-shadow: 2px 2px 4px rgb(53 121 17);
+        }
+
+        span {
+            color: yellow;
         }
     }
 
@@ -74,4 +89,37 @@
         flex-direction: row-reverse;
     }
 
+}
+
+@media screen and (max-width: 1440px) {
+    .awg__tutrow {
+        &-text {
+            text-align: center;
+            
+            h2 {
+                font-size: 2.4rem;
+            }
+    
+            p {
+                font-size: 1.4rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .awg__tutrow {
+        &-container {
+            flex-direction: column !important;
+
+            > div {
+                width: 100%;
+            }
+        }
+
+        &-text {
+            margin-top: 1rem;
+            margin-bottom: 3rem;
+        }
+    }
 }
