@@ -1,0 +1,80 @@
+.awg__spotlight {
+    background-image: url(../../../assets/backgrounds/ant-war-background-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+
+    &-innercontainer {
+        position: relative;
+        max-height: 80vh;
+        overflow: hidden;
+    
+        video {
+            width: 100%;
+        }
+    }
+
+    &-foreground {
+        position: absolute;
+        top: -20px;
+        left: 0;
+        right: 0;
+        display: flex;
+        height: 100%;
+    
+        h2 {
+            color: white;
+            text-align: center;
+            position: relative;
+            top: -20px;
+        }
+    }
+
+    &-wrap {
+        display: flex;
+        flex-direction: column;
+        max-width: 90%;
+        margin: auto;
+
+        img {
+            max-width: 100%;
+            width: 850px;
+        }
+    }
+
+    &-button {
+        margin: auto;
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .awg__spotlight {
+        height: 100vh;
+
+        &-innercontainer {
+            max-height: 100vh;
+            height: 100%;
+            video {
+                display: none;
+            }
+        }
+
+        &-foreground {
+            position: relative;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            height: 100%;
+        
+            h2 {
+                color: white;
+                text-align: center;
+                position: relative;
+                top: 0px;
+            }
+        }
+    }
+}

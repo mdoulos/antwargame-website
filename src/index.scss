@@ -7,5 +7,89 @@
   --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
   
   --sand-white: #d7d6b6;
+  --cream-white: #eae5df;
+  --light-brown: #c0a08b;
+  --vibrant-brown: #d78b58;
+  --grey-brown: #736455;
   --almost-black: #0c0700;
+
+  --site-width: 1150px;
+  --content-width: 1150px;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li, span, button, figcaption, label {
+  font-family: var(--font-main);
+}
+
+.awg__lightpage {
+  max-width: var(--site-width);
+  width: var(--site-width);
+  display: flex;
+  margin: 0 auto;
+  padding: 3rem 2rem 3rem 0;
+
+  &-innercontainer {
+    border-right: 2px solid #322d28;
+    width: 100%;
+    display: flex;
+  }
+
+  main {
+    background-color: var(--cream-white);
+    background-image: url(./assets/backgrounds/ant-war-light-background.jpg);
+    max-width: 800px;
+    margin: 0 auto 0 0;
+    height: 100%;
+    border: 4px solid var(--grey-brown);
+    box-sizing: border-box;
+    box-shadow: 2px 7px 7px rgba(0, 0, 0, 0.5);
+    padding: 2rem 3rem;
+  }
+}
+
+.awg__articlepage {
+  h1 {
+    font-size: 30px;
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    font-size: 26px;
+    margin-top: 4rem;
+  }
+
+  p, figcaption, span, li, label {
+    font-size: 15px;
+  }
+
+  p {
+    margin: 1.5rem 0;
+  }
+
+  p a {
+    color: var(--vibrant-brown);
+    text-decoration: underline;
+  }
+
+  figure {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+    figcaption {
+      color: var(--cream-white);
+      background-color: var(--almost-black);
+      font-style: italic;
+      text-align: center;
+      margin-top: 0.5rem;
+      padding: 1rem;
+    }
+
+    img {
+      border: dashed var(--grey-brown) 2px;
+    }
+  }
+
 }

@@ -1,0 +1,23 @@
+.awg__historyad {
+    background-image: url(../../../assets/about/ant-war-history-banner.jpg);
+    background-size: cover;
+    color: var(--sand-white);
+    text-shadow: 0 0 5px rgba(0,0,0,1);
+    min-height: 220px;
+    display: flex;
+
+    > div {
+        background: rgba(0,0,0,.2);
+        margin: 0.75rem;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+}

@@ -1,0 +1,45 @@
+.awg__aboutpage {
+    article {
+        margin-bottom: 5rem;
+    }
+
+    figure {
+        margin-bottom: 4rem;
+    }
+
+    .awg__accordion {
+        margin-top: 1rem;
+
+        &-entry {
+            display: flex;
+            flex-direction: column;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 3px;
+        
+            label {
+                cursor: pointer;
+                padding: 10px;
+                border-bottom: 1px solid #ccc;
+                background-color: #f5f5f5;
+                border-radius: 3px;
+                text-align: left;
+            }
+        
+            div {
+                padding: 10px;
+                background-color: var(--cream-white);
+                border-radius: 3px;
+                display: none;
+            }
+        
+            input[type="checkbox"] {
+                display: none;
+            }
+        
+            input[type="checkbox"]:checked + label + div {
+                display: block;
+            }
+        }
+    }
+}

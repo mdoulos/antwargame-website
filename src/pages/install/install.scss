@@ -1,0 +1,10 @@
+.installer-buttons {
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.installer-buttons > div:first-of-type .awg-button {
+    background-color: #7f5f1f;
+    margin-right: 1.5rem;
+}

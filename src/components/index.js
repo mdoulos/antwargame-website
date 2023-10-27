@@ -1,6 +1,10 @@
-export { default as Navbar } from './navbar/Navbar';
-export { default as Spotlight } from './spotlight/Spotlight';
-export { default as Endorsement } from './endorsement/Endorsement';
-export { default as Tutorial } from './tutorial/Tutorial';
-export { default as Social } from './social/Social';
-export { default as Footer } from './footer/Footer';
+export { default as Navbar } from './structure/navbar/Navbar';
+export { default as Footer } from './structure/footer/Footer';
+export { default as Spotlight } from './content/spotlight/Spotlight';
+export { default as Endorsement } from './content/endorsement/Endorsement';
+export { default as Tutorial } from './content/tutorial/Tutorial';
+export { default as Social } from './content/social/Social';
+export { default as Installing } from './content/installing/Installing';
+export { default as Hosting } from './content/hosting/Hosting';
+export { default as Bookmarking } from './content/bookmarking/Bookmarking';
+export { default as HistoryAd } from './content/historyad/HistoryAd';

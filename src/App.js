@@ -1,15 +1,24 @@
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Navbar, Footer } from './components'
-import { Homepage } from './pages'
+import { Homepage, Install, Play, About, Modding, History } from './pages';
 import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-        <Navbar />
-        <Homepage />
-        <Footer />
-    </div>
+    <Router>
+      <div className="App">
+          <Navbar />
+            <Routes>
+              <Route path="/" element={<Homepage />} />
+              <Route path="/install" element={<Install />} />
+              <Route path="/play" element={<Play />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/modding" element={<Modding />} />
+              <Route path="/history" element={<History />} />
+            </Routes>
+          <Footer />
+      </div>
+    </Router>
   );
 }
 
