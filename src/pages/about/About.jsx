@@ -1,5 +1,6 @@
 import './about.scss';
 import image from '../../assets/about/about-ant-war.jpg';
+import { Link } from 'react-router-dom';
 import { HistoryAd } from '../../components'
 
 const About = () => {
@@ -12,7 +13,7 @@ const About = () => {
                         <figure>
                             <img src={image} alt="Example image of Ant War gameplay on a computer monitor." />
                         </figure>
-                        <p>Ant War is a computer game on the Starcraft 2 custom game arcade. Ant War was first published on March 14th 2018 and continued development until the end of 2019. Ant War was based upon a game called Ant Colonies, also on the Starcraft 2 arcade and published on September 25th 2016 by Kenoli. Related Link: <a href="#">History of the Ant War Game</a>.</p>
+                        <p>Ant War is a computer game on the Starcraft 2 custom game arcade. Ant War was first published on March 14th 2018 and continued development until the end of 2022. Ant War was based upon a game called Ant Colonies, also on the Starcraft 2 arcade and published on September 25th 2016 by Kenoli.</p>
                         <p>Ant War is comprised of 2-12 players during standard play, with a single player test mode also available. In Ant War, each player starts as a New Ant Queen and must choose to morph into one of four ant races; Black, Wood, Fire, or Crazy. Each choice affects which abilities and units are available to the player.</p>
                         <p>The game is won by killing all enemy ant queens. Whoever has the last living ant queen wins.</p>
                         <p>Each player builds Worker Nests that spawn workers to collect food, or they build Soldier Nests that spawn Soldiers and Majors to fight. Other buildings exist to help the growing ant colony wage war, such as: Guard Posts, Scout Nests, Brood Chambers, Specialist Nests, and Hidden Tunnels.</p>
@@ -23,14 +24,14 @@ const About = () => {
                                 <input type="checkbox" id="question1"></input>
                                 <label className="tab" for="question1">Q: How do I install Ant War?</label>
                                 <div>
-                                    <p>A: I’ve created a detailed visual tutorial on how to install and start playing Ant War at this <a href="#">link</a>.</p>
+                                    <p>A: I’ve created a detailed visual tutorial on how to install and start playing Ant War at this <Link to="/install">link</Link>.</p>
                                 </div>
                             </div>
                             <div className="awg__accordion-entry">
                                 <input type="checkbox" id="question2"></input>
                                 <label className="tab" for="question2">Q: How do I play Ant War?</label>
                                 <div>
-                                    <p>A: I’ve created a detailed visual tutorial on how to play Ant War at this <a href="#">link</a>.</p>
+                                    <p>A: I’ve created a detailed visual tutorial on how to play Ant War at this <Link to="/play">link</Link>.</p>
                                 </div>
                             </div>
                             <div className="awg__accordion-entry">
@@ -43,7 +44,7 @@ const About = () => {
 
                                     <p>Metrick’s hostile creatures and unfortunately buggy weather events made the game less popular than it could’ve been. Ant Nob’s graphical changes proved to be extremely unpopular.</p>
 
-                                    <p>Ant War modifed the visual aspects of Ant Colonies, drastically changed numerous game mechanics, created new ones, and introduced new features, map modes, units, and more. Ant War is considered to be a more developed and polished version of Ant Colonies with much more depth and more options, all the while maintaining the user friendliness and performance stability of the original. Since MDoulos followed the example of Kenoli and released Ant War as an open source mod file, other Ant games have arisen as well. One notable example is Ant Craft by Edahsrevlis with numerous new mechanics added. To find out more about ant game history in the Starcraft 2 arcade check out the History of the Ant War Game page.</p>
+                                    <p>Ant War modifed the visual aspects of Ant Colonies, drastically changed numerous game mechanics, created new ones, and introduced new features, map modes, units, and more. Ant War is considered to be a more developed and polished version of Ant Colonies with much more depth and more options, all the while maintaining the user friendliness and performance stability of the original. Since MDoulos followed the example of Kenoli and released Ant War as an open source mod file, other Ant games have arisen as well. One notable example is Ant Craft by Edahsrevlis with numerous new mechanics added. To find out more about ant game history in the Starcraft 2 arcade check out the <Link to="/history">History of the Ant War Game</Link> page.</p>
                                 </div>
                             </div>
                             <div className="awg__accordion-entry">
@@ -59,9 +60,8 @@ const About = () => {
                                 <input type="checkbox" id="question5"></input>
                                 <label className="tab" for="question5">Q: Can I mod Ant War?</label>
                                 <div>
-                                    <p>A: Certainly! There is an official Ant War mod file available at this link. Feel free to make of it what you'd like! Please give credit for the base game though.</p>
+                                    <p>A: Certainly! There is an official <Link to="/modding">Ant War mod file available at this link</Link>. Feel free to make of it what you'd like! Please give credit for the base game though.</p>
                                     <p>Alternatively, if you'd like to simply make some interesting maps to play with your friends, there is a robust in-game Map Editor that requires 0 coding skill. You can access it by creating a lobby in the arcade and choosing Map Editor as the game rules option. Simply start the game and you'll see the Map Editor. Custom maps are automatically saved when they are edited!</p>
-                                    <p>Learn more about using the map editor by clicking this link.</p>
                                 </div>
                             </div>
                         </div>

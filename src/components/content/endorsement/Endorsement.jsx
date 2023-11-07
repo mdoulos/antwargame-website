@@ -2,12 +2,12 @@ import './endorsement.scss';
 
 const Stars = () => (
     <>
-        <div class="awg__endorsement-stars">
-            <div class="glsr-star glsr-star-full one-star" aria-hidden="true"></div>
-            <div class="glsr-star glsr-star-full two-star" aria-hidden="true"></div>
-            <div class="glsr-star glsr-star-full three-star" aria-hidden="true"></div>
-            <div class="glsr-star glsr-star-full four-star" aria-hidden="true"></div>
-            <div class="glsr-star glsr-star-full five-star" aria-hidden="true"></div>
+        <div className="awg__endorsement-stars">
+            <div className="glsr-star glsr-star-full one-star" aria-hidden="true"></div>
+            <div className="glsr-star glsr-star-full two-star" aria-hidden="true"></div>
+            <div className="glsr-star glsr-star-full three-star" aria-hidden="true"></div>
+            <div className="glsr-star glsr-star-full four-star" aria-hidden="true"></div>
+            <div className="glsr-star glsr-star-full five-star" aria-hidden="true"></div>
         </div>
     </>
 )

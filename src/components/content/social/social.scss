@@ -13,6 +13,7 @@
         justify-content: space-between;
         align-items: center;
         height: 100%;
+        padding: 1rem;
     }
 
     &-text {
@@ -72,4 +73,17 @@
             }
         }
     }
+}
+
+@media screen and (max-width: 450px) {
+
+    .awg__social-text h2 {
+        font-size: 2rem;
+    }
+
+    .awg__social-button {
+        height: 80px;
+        width: 80px;
+    }
+
 }

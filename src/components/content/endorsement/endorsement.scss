@@ -293,3 +293,31 @@
         display: none;
     }
 }
+
+
+@media screen and (max-width: 450px) {
+    .awg__endorsement-review {
+        width: 95%;
+        margin: auto;
+        padding: 2rem 1rem 1rem 1rem;
+    }
+    .awg__endorsement h2 {
+        font-size: 1.5rem;
+    }
+    .awg__endorsement h3 {
+        font-size: 2rem;
+    }
+    .awg__endorsement-stars .glsr-star {
+        width: 20px;
+        height: 20px;
+        background-size: 20px;
+    }
+
+    .awg__endorsement-masked-bg {
+        background-image: unset;
+    }
+
+    .awg__endorsement-innercontainer {
+        padding: 7rem 0 5rem 0;
+    }
+}

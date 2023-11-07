@@ -57,7 +57,7 @@ const Play = () => {
                                 <div>
                                     <p>A: If you're playing free for alls or open alliances, you have the ability to see all remaining players and watch the game after you die. Observe what the bases look like for each player, specifically the building strategy and tactics of the player(s) who beat you. Furthermore, if you get stomped quickly, watch replays of those matches and note how your opening strategy differs from the player who defeated you.</p>
                                     <p>Be sure to carefully read all of the buttons and tooltips in the game. Care was taken to provide a lot of helpful information into the provided texts.</p>
-                                    <p>Lastly, feel free to ask for tips from one of the many Ant War veterans who have thousands of matches of experience under their belts. Ant War has a community discord that well help you find, play with, and learn from other Ant War players.</p>
+                                    <p>Lastly, feel free to ask for tips from one of the many Ant War veterans who have thousands of matches of experience under their belts. Ant War has a <a href="https://discord.gg/x48au2x" target="_blank" rel="noopener noreferrer">community discord</a> that well help you find, play with, and learn from other Ant War players.</p>
                                 </div>
                             </div>
                         </div>

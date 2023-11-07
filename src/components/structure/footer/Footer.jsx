@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import logo from '../../../assets/logos/logo.svg';
 import './footer.scss';
 
 const Menu = () => (
     <>
-        <a href="http://www.paypal.me/awmaker">Donate</a>
-        <a href="">Play</a>
-        <a href="">FAQ</a>
-        <a href="">About</a>
-        <a href="">Contact</a>
+        <a href="http://www.paypal.me/awmaker" target="_blank" rel="noopener noreferrer">Donate</a>
+        <NavLink to="/install">Install</NavLink>
+        <NavLink to="/play">Play</NavLink>
+        <NavLink to="/about">About</NavLink>
+        <a href="https://www.youtube.com/@antwargame1520" target="_blank" rel="noopener noreferrer">Watch</a>
     </>
 )
 

@@ -2,14 +2,22 @@
     background-image: url(../../../assets/backgrounds/ant-war-background-mobile.jpg);
     background-size: cover;
     background-position: center;
+    
 
     &-innercontainer {
         position: relative;
         max-height: 80vh;
         overflow: hidden;
-    
+        height: 0; // This prevents the collapse and sets a padding-bottom relative to the parent
+        padding-bottom: 45%; // For 16:9 aspect ratio, adjust as needed
+          
         video {
-            width: 100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 115%;
+            object-fit: cover; /* This will cover the area, may clip the video, but maintains aspect ratio */
         }
     }
 
@@ -44,6 +52,18 @@
     &-button {
         margin: auto;
         margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .awg__spotlight-wrap {
+        img {
+            width: 700px;
+        }
+    }
+
+    .awg__spotlight-innercontainer {
+        padding-bottom: 50%;
     }
 }
 

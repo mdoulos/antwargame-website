@@ -7,11 +7,11 @@ import './navbar.scss';
 
 const Menu = () => (
     <>
-        <Link to={{ pathname: "http://www.paypal.me/awmaker" }} target="_blank">Donate</Link>
+        <a href="http://www.paypal.me/awmaker" target="_blank" rel="noopener noreferrer">Donate</a>
         <NavLink to="/install">Install</NavLink>
         <NavLink to="/play">Play</NavLink>
         <NavLink to="/about">About</NavLink>
-        <Link to={{ pathname: "http://www.paypal.me/awmaker" }} target="_blank">Watch</Link>
+        <a href="https://www.youtube.com/@antwargame1520" target="_blank" rel="noopener noreferrer">Watch</a>
     </>
 )
 

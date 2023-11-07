@@ -46,131 +46,133 @@ const History = () => {
                 </main>
                 <aside className="awg__historypage-timeline">
                     <div>
-                        <label></label>
                         <div>
-                            <h3>2015</h3>
-                            <p>Sim Zergling Published by Vanished, inspiring Kenoli</p>
+                            <label></label>
+                            <div>
+                                <h3>2015</h3>
+                                <p>Sim Zergling Published by Vanished, inspiring Kenoli</p>
+                            </div>
+                        </div>
+                        <div className="timeline-event-alt">
+                            <label></label>
+                            <div>
+                                <h3>2016</h3>
+                                <p>Kenoli begins development on Ant Colonies</p>
+                            </div>
+                        </div>
+                        <div>
+                            <label></label>
+                            <div>
+                                <h3>September 25 2016</h3>
+                                <p>Ant Colonies Published by Kenoli</p>
+                            </div>
+                        </div>
+                        <div className="timeline-event-alt">
+                            <label></label>
+                            <div>
+                                <h3>May 2 2017</h3>
+                                <p>Kenoli makes Ant Colonies open source</p>
+                            </div>
+                        </div>
+                        <div>
+                            <label></label>
+                            <div>
+                                <h3>Summer - Winter 2017</h3>
+                                <p>Metrick makes Metrick's Ant Colonies</p>
+                            </div>
+                        </div>
+                        <div className="timeline-event-alt">
+                            <label></label>
+                            <div>
+                                <h3>Summer 17 - Spring 18</h3>
+                                <p>Galsss makes Ant Colonies Ant Nob</p>
+                            </div>
+                        </div>
+                        <div>
+                            <label></label>
+                            <div>
+                                <h3>February 2018</h3>
+                                <p>MDoulos recruited to the Ant Nob clan and helps make Ant Nob UI artwork.</p>
+                            </div>
+                        </div>
+                        <div className="timeline-event-alt">
+                            <label></label>
+                            <div>
+                                <h3>February 24 2018</h3>
+                                <p>Development begins on Ant War</p>
+                            </div>
+                        </div>
+                        <div>
+                            <label></label>
+                            <div>
+                                <h3>March 14 2018</h3>
+                                <p>Ant War first draft published by MDoulos</p>
+                            </div>
+                        </div>
+                        <div>
+                            <label></label>
+                            <div>
+                                <h3>Development Summary of 2018</h3>
+                                <p>Many core gameplay mechanics created, map types, game modes, abilities, structures, and units.</p>
+                            </div>
+                        </div>
+                        <div className="timeline-event-alt">
+                            <label></label>
+                            <div>
+                                <h3>April - August 2018</h3>
+                                <p>Galsss of Ant Nob helping out as a co-developer, specializing in model optimization.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <label></label>
+                            <div>
+                                <h3>March 2019</h3>
+                                <p>Ant Evolution published by Deepwrinkles and Galsss</p>
+                            </div>
+                        </div>
+                        <div className="timeline-event-alt">
+                            <label></label>
+                            <div>
+                                <h3>May 2019</h3>
+                                <p>Ant Craft published by Edahsrevlis, a mod of Ant War.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <label></label>
+                            <div>
+                                <h3>Development Summary of 2019</h3>
+                                <p>Many core gameplay mechanics refined, map types, game modes, abilities, structures, and units.</p>
+                                <p>Added AI Players (Artificial Intelligence) to fight against.</p>
+                                <p>Added the ability to observe the rest of the game after being personally defeated.</p>
+                                <p>Added custom Control Groups and other quality of life improvements.</p>
+                            </div>
+                        </div>
+                        <div className="timeline-event-alt">
+                            <label></label>
+                            <div>
+                                <h3>Development Summary of 2020</h3>
+                                <p>Many core gameplay features refined, performance increased, bugs fixed. New units, modes, and maps added.</p>
+                                <p>Added Statistics, ie recording actions performed in game.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <label></label>
+                            <div>
+                                <h3>Development Summary of 2021</h3>
+                                <p>Development disruption for half of the year.</p>
+                                <p>Major aesthetic improvements, better textures, model optizations, and bug fixes.</p>
+                                <p>Game balanced refined and performance improved. Some features added such as Map Scrambling. Many mechanics still being reworked and tweaked with a focus on polishing off concepts.</p>
+                            </div>
+                        </div>
+                        <div className="timeline-event-alt">
+                            <label></label>
+                            <div>
+                                <h3>Development Summary of 2022</h3>
+                                <p>Major features are added to the game, marking the end of core-gameplay development.</p>
+                                <p>Major features that were added include: an in-game Map Editor, earnable and purchaseable Skins, Achievements, and localizations for 9 languages.</p>
+                            </div>
                         </div>
                     </div>
-                    <div className="timeline-event-alt">
-                        <label></label>
-                        <div>
-                            <h3>2016</h3>
-                            <p>Kenoli begins development on Ant Colonies</p>
-                        </div>
-                    </div>
-                    <div>
-                        <label></label>
-                        <div>
-                            <h3>September 25 2016</h3>
-                            <p>Ant Colonies Published by Kenoli</p>
-                        </div>
-                    </div>
-                    <div className="timeline-event-alt">
-						<label></label>
-						<div>
-							<h3>May 2 2017</h3>
-							<p>Kenoli makes Ant Colonies open source</p>
-						</div>
-					</div>
-                    <div>
-						<label></label>
-						<div>
-							<h3>Summer - Winter 2017</h3>
-							<p>Metrick makes Metrick's Ant Colonies</p>
-						</div>
-					</div>
-                    <div className="timeline-event-alt">
-						<label></label>
-						<div>
-							<h3>Summer 17 - Spring 18</h3>
-							<p>Galsss makes Ant Colonies Ant Nob</p>
-						</div>
-					</div>
-                    <div>
-						<label></label>
-						<div>
-							<h3>February 2018</h3>
-							<p>MDoulos recruited to the Ant Nob clan and helps make Ant Nob UI artwork.</p>
-						</div>
-					</div>
-                    <div className="timeline-event-alt">
-						<label></label>
-						<div>
-							<h3>February 24 2018</h3>
-							<p>Development begins on Ant War</p>
-						</div>
-					</div>
-                    <div>
-						<label></label>
-						<div>
-							<h3>March 14 2018</h3>
-							<p>Ant War first draft published by MDoulos</p>
-						</div>
-					</div>
-                    <div>
-						<label></label>
-						<div>
-							<h3>Development Summary of 2018</h3>
-							<p>Many core gameplay mechanics created, map types, game modes, abilities, structures, and units.</p>
-						</div>
-					</div>
-                    <div className="timeline-event-alt">
-						<label></label>
-						<div>
-							<h3>April - August 2018</h3>
-							<p>Galsss of Ant Nob helping out as a co-developer, specializing in model optimization.</p>
-						</div>
-					</div>
-                    <div>
-						<label></label>
-						<div>
-							<h3>March 2019</h3>
-							<p>Ant Evolution published by Deepwrinkles and Galsss</p>
-						</div>
-					</div>
-                    <div className="timeline-event-alt">
-						<label></label>
-						<div>
-							<h3>May 2019</h3>
-							<p>Ant Craft published by Edahsrevlis, a mod of Ant War.</p>
-						</div>
-					</div>
-                    <div>
-						<label></label>
-						<div>
-							<h3>Development Summary of 2019</h3>
-							<p>Many core gameplay mechanics refined, map types, game modes, abilities, structures, and units.</p>
-                            <p>Added AI Players (Artificial Intelligence) to fight against.</p>
-                            <p>Added the ability to observe the rest of the game after being personally defeated.</p>
-                            <p>Added custom Control Groups and other quality of life improvements.</p>
-						</div>
-					</div>
-                    <div className="timeline-event-alt">
-						<label></label>
-						<div>
-							<h3>Development Summary of 2020</h3>
-							<p>Many core gameplay features refined, performance increased, bugs fixed. New units, modes, and maps added.</p>
-                            <p>Added Statistics, ie recording actions performed in game.</p>
-						</div>
-					</div>
-                    <div>
-						<label></label>
-						<div>
-							<h3>Development Summary of 2021</h3>
-							<p>Development disruption for half of the year.</p>
-                            <p>Major aesthetic improvements, better textures, model optizations, and bug fixes.</p>
-                            <p>Game balanced refined and performance improved. Some features added such as Map Scrambling. Many mechanics still being reworked and tweaked with a focus on polishing off concepts.</p>
-						</div>
-					</div>
-                    <div className="timeline-event-alt">
-						<label></label>
-						<div>
-							<h3>Development Summary of 2022</h3>
-							<p>Major features are added to the game, marking the end of core-gameplay development.</p>
-                            <p>Major features that were added include: an in-game Map Editor, earnable and purchaseable Skins, Achievements, and localizations for 9 languages.</p>
-						</div>
-					</div>
                 </aside>
             </div>
         </div>

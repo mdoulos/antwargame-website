@@ -13,3 +13,15 @@
     width: 100%;
     z-index: 1;
 }
+
+
+@media screen and (max-width: 450px) {
+    .awg__homepage-endorsementAndTutorial {
+        overflow: hidden;
+    }
+    
+    .awg__homepage-crossbar {
+        width: unset;
+        left: -100px;
+    }
+}

@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6, p, a, li, span, button, figcaption, label {
 }
 
 .awg__lightpage {
-  max-width: var(--site-width);
+  max-width: 100%;
   width: var(--site-width);
   display: flex;
   margin: 0 auto;
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6, p, a, li, span, button, figcaption, label {
     background-color: var(--cream-white);
     background-image: url(./assets/backgrounds/ant-war-light-background.jpg);
     max-width: 800px;
-    margin: 0 auto 0 0;
+    margin: 0 2rem 0 0;
     height: 100%;
     border: 4px solid var(--grey-brown);
     box-sizing: border-box;
@@ -92,4 +92,39 @@ h1, h2, h3, h4, h5, h6, p, a, li, span, button, figcaption, label {
     }
   }
 
+}
+
+
+@media screen and (max-width: 768px) {
+    .awg__lightpage {
+        padding: 1rem;
+
+        main {
+            margin: 0;
+        }
+
+        &-innercontainer {
+        flex-direction: column;
+        }
+    }
+  }
+
+@media screen and (max-width: 450px) {
+  .awg__lightpage {
+    padding: 0rem;
+
+    main {
+      border: unset;
+      padding: 1rem;
+      padding-top: 2rem;
+    }
+
+    aside {
+      padding: 1rem;
+    }
+  }
+
+  .awg__articlepage h2 {
+    font-size: 20px;
+  }
 }

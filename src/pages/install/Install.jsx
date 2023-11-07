@@ -9,9 +9,9 @@ const Install = () => {
                     <article>
                         <h1>Install</h1>
                         <p>Ant War is a free to play game in the Starcraft 2 custom game arcade using the SC2 game engine, which itself is also free to play. To play Ant War, you’ll need to download and install the Starcraft 2 Battle.net game client. Instructions are included in a tutorial below. If the game is already installed, you can jump to how to <a href="#host-lobby">Find or Host Ant War Lobbies</a> or how to <a href="#bookmark">Make it Easy to Find Ant War</a>.</p>
-                        <div class="installer-buttons">
-                            <div><a href="https://www.battle.net/download/getInstallerForGame?gameProgram=STARCRAFT_2" class="awg-button">Download Installer</a></div>
-                            <div><a href="https://starcraft2.com/" class="awg-button">Starcraft 2 Website</a></div>
+                        <div className="installer-buttons">
+                            <div><a href="https://www.battle.net/download/getInstallerForGame?gameProgram=STARCRAFT_2" className="awg-button">Download Installer</a></div>
+                            <div><a href="https://starcraft2.com/" className="awg-button">Starcraft 2 Website</a></div>
                         </div>
                         <h2>How to Install Ant War</h2>
                         <p>Below is a tutorial covering how to install the Battle.net client which is required to play Starcraft 2 and also Ant War by nature of it being in the custom game arcade. If you already have access to Ant War and would like to learn the game, click How to Play to learn more.</p>

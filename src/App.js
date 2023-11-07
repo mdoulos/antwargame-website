@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Navbar, Footer } from './components'
+import { Navbar, Footer, ScrollToTop } from './components'
 import { Homepage, Install, Play, About, Modding, History } from './pages';
 import './App.scss';
 
@@ -8,6 +8,7 @@ function App() {
     <Router>
       <div className="App">
           <Navbar />
+            <ScrollToTop />
             <Routes>
               <Route path="/" element={<Homepage />} />
               <Route path="/install" element={<Install />} />

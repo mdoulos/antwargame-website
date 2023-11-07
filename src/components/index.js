@@ -1,5 +1,6 @@
 export { default as Navbar } from './structure/navbar/Navbar';
 export { default as Footer } from './structure/footer/Footer';
+export { default as ScrollToTop } from './structure/scrolltotop/ScrollToTop';
 export { default as Spotlight } from './content/spotlight/Spotlight';
 export { default as Endorsement } from './content/endorsement/Endorsement';
 export { default as Tutorial } from './content/tutorial/Tutorial';
